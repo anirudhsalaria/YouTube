@@ -41,4 +41,4 @@ const ChannelCard = (channelDetail) => (
   
 )
 
-export default ChannelCard
+export default ChannelCard;
