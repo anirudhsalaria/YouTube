@@ -19,7 +19,7 @@ const ChannelCard = ({marginTop,channelDetail: {id: {channelId},snippet,statisti
       marginTop
     }}
     >
-      <Link to={channelId ? `/channel/${channelId}` : demoChannelUrl}>
+      <Link to={`/channel/${channelId}`}>
         <CardContent sx={{display:'flex',flexDirection:'column',justifyContent:'center',textAlign:'center',color:'#fff'}}>
           <CardMedia
           image={snippet?.thumbnails?.high?.url || demoProfilePicture }
