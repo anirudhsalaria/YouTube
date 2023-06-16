@@ -12,15 +12,16 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import FlightIcon from '@mui/icons-material/Flight';
+import FaceIcon from '@mui/icons-material/Face';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 'https://julianlennon.com/wp-content/uploads/2018/11/youtube-play-button-transparent-png-image-42015-800.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
   { name: 'Flying Beast', icon: <FlightIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Harry Potter', icon: <FaceIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
