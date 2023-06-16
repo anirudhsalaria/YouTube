@@ -22,13 +22,13 @@ const SearchBar = () => {
         onSubmit={handleSubmit}
         sx={{
             borderRadius: 20,
-            border: '1px solid #e3e3e3',
-            pl: 2,
-            boxShadow: 'none',
-            mr:{sm:5}
+            border: '2px solid #e3e3e3',
+            pl: 3,
+            display:'flex',
+            fontSize:{xs:"12px"}
         }}
     >
-      <input
+      <input type='text'
         className='search-bar'
         placeholder='Search...'
         value={searchTerm}
